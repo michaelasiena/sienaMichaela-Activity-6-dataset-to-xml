@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<!DOCTYPE estimated_crimes [
+
+    <!ELEMENT estimated_crimes (year_2020)>
+    <!ELEMENT year_2020 (state)>
+    <!ELEMENT state (state_name, population, violent_crime, homicide, rape_legacy, robbery, aggravated_assault, property_crime, burglary, larceny, motor_vehicle_theft)>
+
+
+    <!ELEMENT year_2020 (#PCDATA)>
+    <!ELEMENT state (#PCDATA)>
+    <!ELEMENT state_name (#PCDATA)>
+    <!ELEMENT population (#PCDATA)>
+    <!ELEMENT violent_crime (#PCDATA)>
+    <!ELEMENT homicide (#PCDATA)>
+    <!ELEMENT rape_legacy (#PCDATA)>
+    <!ELEMENT robbery (#PCDATA)>
+    <!ELEMENT aggravated_assault (#PCDATA)>
+    <!ELEMENT property_crime (#PCDATA)>
+    <!ELEMENT burglary (#PCDATA)>
+    <!ELEMENT larceny (#PCDATA)>
+    <!ELEMENT motor_vehicle_theft (#PCDATA)>
+
+    <!ATTLIST state no CDATA #REQUIRED>
+
+
+
+
+
+]>
+
+
+<estimated_crimes>
+
+	<year_2020>
+
+		<state no="1">
+			<state_name>Alaska</state_name>
+	        <population>731158</population>
+	        <violent_crime>6126</violent_crime>
+	        <homicide>49</homicide>
+	        <rape_legacy>1132</rape_legacy>
+	        <robbery>712</robbery>
+	        <aggravated_assault>4233</aggravated_assault>
+	        <property_crime>16528</property_crime>
+	        <burglary>2775</burglary>
+	        <larceny>11784</larceny>
+	        <motor_vehicle_theft>1969</motor_vehicle_theft>
+		</state>
+
+		<state no="2">
+			<state_name>California</state_name>
+	        <population>39368078</population>
+	        <violent_crime>174026</violent_crime>
+	        <homicide>2203</homicide>
+	        <rape_legacy>13449</rape_legacy>
+	        <robbery>44728</robbery>
+	        <aggravated_assault>113646</aggravated_assault>
+	        <property_crime>842054</property_crime>
+	        <burglary>145529</burglary>
+	        <larceny>528202</larceny>
+	        <motor_vehicle_theft>168323</motor_vehicle_theft>
+			
+		</state>
+
+	    <state no="3">
+	    	<state_name>Florida</state_name>
+	        <population>21733312</population>
+	        <violent_crime>83368</violent_crime>
+	        <homicide>1290</homicide>
+	        <rape_legacy>7686</rape_legacy>
+	        <robbery>13521</robbery>
+	        <aggravated_assault>60871</aggravated_assault>
+	        <property_crime>384556</property_crime>
+	        <burglary>52293</burglary>
+	        <larceny>293992</larceny>
+	        <motor_vehicle_theft>38271</motor_vehicle_theft>
+
+	    </state>
+
+	    <state no="4">
+	    	<state_name>Hawaii</state_name>
+	        <population>1407006</population>
+	        <violent_crime>3576</violent_crime>
+	        <homicide>41</homicide>
+	        <rape_legacy>569</rape_legacy>
+	        <robbery>867</robbery>
+	        <aggravated_assault>2099</aggravated_assault>
+	        <property_crime>33928</property_crime>
+	        <burglary>4630</burglary>
+	        <larceny>23954</larceny>
+	        <motor_vehicle_theft>5344</motor_vehicle_theft>
+	    
+	    </state>
+
+	    <state no="5">
+	    	<state_name>Indiana</state_name>
+	        <population>6754953</population>
+	        <violent_crime>24161</violent_crime>
+	        <homicide>505</homicide>
+	        <rape_legacy>2348</rape_legacy>
+	        <robbery>4215</robbery>
+	        <aggravated_assault>17093</aggravated_assault>
+	        <property_crime>120453</property_crime>
+	        <burglary>18938</burglary>
+	        <larceny>86080</larceny>
+	        <motor_vehicle_theft>15435</motor_vehicle_theft>
+	    	
+	    </state>
+
+
+	    <state no="6">
+	    	<state_name>Kentucky</state_name>
+	        <population>4477251</population>
+	        <violent_crime>11600</violent_crime>
+	        <homicide>323</homicide>
+	        <rape_legacy>1371</rape_legacy>
+	        <robbery>2369</robbery>
+	        <aggravated_assault>7537</aggravated_assault>
+	        <property_crime>79673</property_crime>
+	        <burglary>15407</burglary>
+	        <larceny>52769</larceny>
+	        <motor_vehicle_theft>11497</motor_vehicle_theft>
+	    	
+	    </state>
+
+	    <state no="7">
+	        <state_name>Michigan</state_name>
+	        <population>9966555</population>
+	        <violent_crime>47641</violent_crime>
+	        <homicide>754</homicide>
+	        <rape_legacy>6065</rape_legacy>
+	        <robbery>4438</robbery>
+	        <aggravated_assault>36384</aggravated_assault>
+	        <property_crime>135633</property_crime>
+	        <burglary>23231</burglary>
+	        <larceny>94017</larceny>
+	        <motor_vehicle_theft>18385</motor_vehicle_theft>
+	    	
+	    </state>
+
+	    <state no="8">
+	    	<state_name>New York</state_name>
+	        <population>19336776</population>
+	        <violent_crime>70339</violent_crime>
+	        <homicide>808</homicide>
+	        <rape_legacy>5468</rape_legacy>
+	        <robbery>17525</robbery>
+	        <aggravated_assault>46538</aggravated_assault>
+	        <property_crime>272788</property_crime>
+	        <burglary>32003</burglary>
+	        <larceny>221129</larceny>
+	        <motor_vehicle_theft>19656</motor_vehicle_theft>
+	    	
+	    </state>
+
+	    <state no="9">
+	    	<state_name>Oklahoma</state_name>
+	        <population>3980783</population>
+	        <violent_crime>18255</violent_crime>
+	        <homicide>296</homicide>
+	        <rape_legacy>2102</rape_legacy>
+	        <robbery>2351</robbery>
+	        <aggravated_assault>13506</aggravated_assault>
+	        <property_crime>107705</property_crime>
+	        <burglary>24415</burglary>
+	        <larceny>68243</larceny>
+	        <motor_vehicle_theft>15047</motor_vehicle_theft>
+	    
+	    </state>
+
+	    <state no="10">
+	        <state_name>Pennsylvania</state_name>
+	        <population>12783254</population>
+	        <violent_crime>49793</violent_crime>
+	        <homicide>1009</homicide>
+	        <rape_legacy>4228</rape_legacy>
+	        <robbery>10728</robbery>
+	        <aggravated_assault>33828</aggravated_assault>
+	        <property_crime>210167</property_crime>
+	        <burglary>31774</burglary>
+	        <larceny>162919</larceny>
+	        <motor_vehicle_theft>15474</motor_vehicle_theft>
+	
+	    </state>
+
+
+	</year_2020>
+	
+
+
+	
+
+
+</estimated_crimes>
